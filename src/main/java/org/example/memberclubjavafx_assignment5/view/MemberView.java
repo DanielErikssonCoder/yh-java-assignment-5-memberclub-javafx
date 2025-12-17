@@ -92,7 +92,7 @@ public class MemberView {
 
         // Setup the search field
         searchField = new TextField();
-        searchField.setPromptText("Sök medlem...");
+        searchField.setPromptText("Sök medlem");
         searchField.setPrefWidth(300);
         searchField.setPrefHeight(35);
         searchField.setMinHeight(35);

@@ -126,7 +126,7 @@ public class RentalHistoryComponent extends VBox {
 
         // Search Field
         searchField = new TextField();
-        searchField.setPromptText("Sök ID, medlem...");
+        searchField.setPromptText("Sök");
         searchField.setPrefWidth(250);
 
         // When the user types something, run the 'updateFilter' method automatically
