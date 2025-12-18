@@ -153,7 +153,7 @@ src/main/java/
 
 src/main/resources/
 └── org.example.memberclubjavafx_assignment5/
-    ├── styles.css                                   # Custom styling (958 lines)
+    ├── styles.css                                   # Custom styling
     └── icon.png                                     # Application icon
 
 data/                                                # JSON persistence (gitignored)
@@ -425,16 +425,6 @@ To reset data: delete `data/` folder and restart application.
 - Factory patterns for extensibility
 - Rich domain models with business logic
 
-### Code Statistics
-
-- **96 Java files**
-- **~12,400 lines** of Java code
-- **958 lines** of CSS
-- **7 main views** + 4 dialogs
-- **13 form strategies** for different item types
-- **20+ enums** for type safety
-- **12 concrete item types** in 3 categories
-- **8 reusable components**
 
 ---
 
@@ -442,3 +432,4 @@ To reset data: delete `data/` folder and restart application.
 **Course:** Java System Development (YH)  
 **Assignment:** JavaFX Application Development  
 **Date:** December 2025 
+
