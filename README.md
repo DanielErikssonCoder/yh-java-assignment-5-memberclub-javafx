@@ -163,7 +163,6 @@ data/                                                # JSON persistence (gitigno
 └── rentals.json                                     # Rental history
 ```
 
-**Total:** 96 Java files, ~12,400 lines of code, organized into logical packages with clear separation of concerns.
 
 ## Architecture & Design
 
@@ -432,4 +431,5 @@ To reset data: delete `data/` folder and restart application.
 **Course:** Java System Development (YH)  
 **Assignment:** JavaFX Application Development  
 **Date:** December 2025 
+
 
