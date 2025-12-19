@@ -322,7 +322,7 @@ To reset data: delete `data/` folder and restart application.
 
 **Custom Styling**
 - AtlantaFX NordDark theme as base
-- 958 lines of custom CSS for professional look
+- Custom CSS for professional look
 - CSS variables for consistent colors and sizing
 - Glassmorphism effects for modern aesthetics
 
@@ -431,5 +431,6 @@ To reset data: delete `data/` folder and restart application.
 **Course:** Java System Development (YH)  
 **Assignment:** JavaFX Application Development  
 **Date:** December 2025 
+
 
 
