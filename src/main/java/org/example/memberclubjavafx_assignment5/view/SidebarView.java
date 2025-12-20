@@ -137,7 +137,11 @@ public class SidebarView extends VBox {
         logoBox.setCursor(javafx.scene.Cursor.HAND);
 
         // Go to start page if the user clicks on the logo
-        logoBox.setOnMouseClicked(e -> onNavigate.accept("Översikt"));
+        logoBox.setOnMouseClicked(e -> {
+            setActiveButton("Översikt");
+            onNavigate.accept("Översikt");
+        });
+
 
         // Load the logo image
         ImageView brandIcon = new ImageView();
@@ -234,8 +238,14 @@ public class SidebarView extends VBox {
         // Set action when button is clicked
         btn.setOnAction(e -> {
 
+            if (btn.getStyleClass().contains("active")) {
+                return;
+            }
+
             // Remove active class from all buttons
-            for (Button button : navButtons) button.getStyleClass().remove("active");
+            for (Button button : navButtons) {
+                button.getStyleClass().remove("active");
+            }
 
             // Add active class to the clicked button
             btn.getStyleClass().add("active");

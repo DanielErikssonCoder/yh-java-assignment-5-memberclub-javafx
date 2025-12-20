@@ -122,7 +122,7 @@ public class ItemView {
         HBox cardHeader = new HBox(15);
         cardHeader.setAlignment(Pos.CENTER_LEFT);
 
-        Label listTitle = new Label("Lageröversikt");
+        Label listTitle = new Label("Lager");
         listTitle.getStyleClass().add(Styles.TITLE_4);
 
         Region cardSpacer = new Region();

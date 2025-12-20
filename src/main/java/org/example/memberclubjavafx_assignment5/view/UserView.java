@@ -84,7 +84,7 @@ public class UserView {
         HBox cardHeader = new HBox(15);
         cardHeader.setAlignment(Pos.CENTER_LEFT);
 
-        Label listTitle = new Label("Personalöversikt");
+        Label listTitle = new Label("Översikt");
         listTitle.getStyleClass().add(Styles.TITLE_4);
 
         Region spacer = new Region();
